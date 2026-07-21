@@ -13,7 +13,7 @@ let package = Package(
             targets: ["google_mlkit_barcode_scanning"])
     ],
     dependencies: [
-        .package(path: "../../../google_mlkit_commons/ios/google_mlkit_commons"),
+        .package(path: "../google_mlkit_commons"),
         .package(
             url: "https://github.com/CloveStranger/google-mlkit-swiftpm",
             revision: "9b63ccf8d6b4a0bd1dc50aae5a6de0e974983b69"
